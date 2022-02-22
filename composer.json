@@ -1,0 +1,14 @@
+{
+  "repositories":
+  [
+    {
+      "type": "vcs",
+      "url": "https://github.com/entrilas/hyphenation-algorithm.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hyphenation\\": "hyphenation-algorithm/"
+    }
+  }
+}
