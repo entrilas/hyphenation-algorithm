@@ -13,10 +13,10 @@ class HyphenationTrie implements HyphenationInterface
 
     private mixed $patternTrie;
     private array $validPatterns;
+    private array $patterns;
 
-    public function __construct(
-        private ?array $patterns = null
-    ) {
+    public function __construct()
+    {
     }
 
     public function hyphenate(string $word): string
@@ -67,8 +67,9 @@ class HyphenationTrie implements HyphenationInterface
         }
     }
 
-    public function formPatternTrie(): void
+    public function formPatternTrie(array $patterns): void
     {
+        $this->patterns = $patterns;
         $trie = &$this->patternTrie;
         foreach ($this->patterns as $pattern) {
             $pattern = $this->removeSymbols($pattern);
