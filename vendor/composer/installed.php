@@ -5,18 +5,18 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ac1657b84b9590f9226d449885c7a37c8efcc84a',
-        'name' => '__root__',
+        'reference' => 'd9bf82e8a918e16f50151ce06f2796e291640c92',
+        'name' => 'entrilas/hyphenation-algorithm',
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'entrilas/hyphenation-algorithm' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ac1657b84b9590f9226d449885c7a37c8efcc84a',
+            'reference' => 'd9bf82e8a918e16f50151ce06f2796e291640c92',
             'dev_requirement' => false,
         ),
     ),
