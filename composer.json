@@ -1,9 +1,12 @@
 {
-  "repositories":
-  [
+  "name": "entrilas/hyphenation-algorithm",
+  "description": "This is hyphenation algorithm to hyphenate words using TeX algorithm.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
     {
-      "type": "vcs",
-      "url": "https://github.com/entrilas/hyphenation-algorithm.git"
+      "name": "entrilas",
+      "email": "arnasdulinskas@gmail.com"
     }
   ],
   "autoload": {
