@@ -16,12 +16,12 @@ class ComposerStaticInit787af136e4ed0ed406a90c655d93f502
     public static $prefixDirsPsr4 = array (
         'Hyphenation\\' => 
         array (
-            0 => __DIR__ . '/../..',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

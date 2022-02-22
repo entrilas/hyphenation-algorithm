@@ -1,9 +1,11 @@
 <?php
 
-namespace Hyphenation;
+declare(strict_types=1);
 
-use App\Algorithm\Interfaces\HyphenationInterface;
-use App\Traits\FormatString;
+namespace Hyphenation\Algorithm;
+
+use Hyphenation\Algorithm\Interfaces\HyphenationInterface;
+use Hyphenation\Traits\FormatString;
 
 class HyphenationTrie implements HyphenationInterface
 {
